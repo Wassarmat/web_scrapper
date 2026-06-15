@@ -1,0 +1,4 @@
+#ifndef NETWORKHELPER_H
+#define NETWORKHELPER_H
+
+#endif // NETWORKHELPER_H

@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_web_scrapper_FILE /home/abyraeg/web_scrapper/build/web_scrapper)
+set(__QT_DEPLOY_TARGET_web_scrapper_TYPE EXECUTABLE)

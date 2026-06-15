@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-a7ef7b9f0384ed271f1a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "web_scrapper",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "web_scrapper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-web_scrapper-Debug-19da4408d737fd4239d3.json",
+					"name" : "web_scrapper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "web_scrapper_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-web_scrapper_autogen-Debug-9bf2c5f70bc2ef4869c8.json",
+					"name" : "web_scrapper_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "web_scrapper_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-web_scrapper_autogen_timestamp_deps-Debug-769eb44a396490dc7a51.json",
+					"name" : "web_scrapper_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/abyraeg/web_scrapper/build/Desktop_Qt_6_11_1-Debug",
+		"source" : "/home/abyraeg/web_scrapper"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
