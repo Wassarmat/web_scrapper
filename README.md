@@ -5,11 +5,9 @@
   <p>
     <strong>Многопоточный веб-скрейпер на C++ с графическим интерфейсом на Qt</strong>
   </p>
-  <p>
-
-    <img src="https://img.shields.io/badge/C++-17-blue?style=flat-square&logo=c%2B%2B" alt="C++17">
-    <img src="https://img.shields.io/badge/Qt-6.0-brightgreen?style=flat-square&logo=qt" alt="Qt6">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT">
+    <![C++17](https://img.shields.io/badge/C++-17-blue?style=flat-square&logo=c%2B%2B)
+    ![Qt6](https://img.shields.io/badge/Qt-6.0-brightgreen?style=flat-square&logo=qt)
+    ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
   </p>
 </div>
 
@@ -41,5 +39,6 @@
 sudo apt update
 sudo apt install build-essential cmake qt6-base-dev libcurl4-openssl-dev
 ```
-##Прочее
+###Прочее
+
 Возможно добавлю в будущем дополнительные возможности. Для удобства установки позже сделаю бинарники. 
