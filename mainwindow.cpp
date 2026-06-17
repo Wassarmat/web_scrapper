@@ -10,8 +10,6 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-
-
     scrapper= std::make_unique<WebScrapper>(6,this);
 
     //подключаем сигналы к слотам. В QT следующий порядок аргументов: объект отправляющий сигнал; сигнал к которому осуществляем соед.; получатель сигнала; слот вызываемый сигналом
@@ -21,6 +19,10 @@ MainWindow::MainWindow(QWidget *parent)
     connect(scrapper.get(), &WebScrapper::finished, this, &MainWindow::onFinished);
     connect(ui->pushButton_2, &QPushButton::clicked, this, &MainWindow::close);
     connect(ui->pushButton_3, &QPushButton::clicked, this, &MainWindow::onStopButtonClicked);
+    connect(ui->pushButton_4, &QPushButton::clicked, this, &MainWindow::saveAs);
+    connect(ui->pushButton_clearLogs, &QPushButton::clicked, this, &MainWindow::clearLogs);
+
+    ui->pushButton_3->setEnabled(false);
 
     ui->plainTextEdit->setEnabled(true);
     ui->plainTextEdit->setReadOnly(true);
@@ -41,6 +43,11 @@ void MainWindow::on_pushButton_clicked()
         return;
     }
 
+    if(!ui->lineEdit_2->text().isEmpty()){
+        int numOfScanPages= ui->lineEdit_2->text().toInt();
+        scrapper->setMaxCountCheckUrl(numOfScanPages);
+    }
+
     // Преобразуем QString в std::string
     std::string startUrl = urlText.toStdString();
     std::vector<std::string> urls = { startUrl };
@@ -53,6 +60,32 @@ void MainWindow::on_pushButton_clicked()
     // Запускаем скрейпер
     scrapper->start(urls);
 }
+
+
+//Функция для кнопки "Сохранить как"
+void MainWindow::saveAs(){
+    QString sourcePath = QCoreApplication::applicationDirPath() + "/data.txt";
+    const std::string path = sourcePath.toStdString();
+
+    if(!std::filesystem::exists(path)){
+        QMessageBox::warning(this, "Ошибка", "Файл с таким именем отсутсвует");
+        return;
+    }
+
+
+    QString newPath= QFileDialog::getSaveFileName(this, "Сохранить данные как...", sourcePath, "Текстовые (*.txt)");
+
+    if(newPath != ""){
+        QFile::copy(sourcePath, newPath);
+    }
+}
+
+void MainWindow::clearLogs(){
+    ui->plainTextEdit->clear();
+}
+
+
+
 
 void MainWindow::onProgressChanged(int processed, int total)
 {
@@ -81,6 +114,7 @@ void MainWindow::onError(const std::string& message)
 void MainWindow::onFinished()
 {
     ui->plainTextEdit->appendPlainText("Сканирование завершено.");
+    ui->pushButton_3->setEnabled(false);
     ui->pushButton->setEnabled(true);   // снова включаем кнопку
 }
 

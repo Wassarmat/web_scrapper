@@ -32,6 +32,7 @@ public:
     void stop();
 
     int getMaxCountUrl(){return maxCountCheckUrl;}
+    void setMaxCountCheckUrl(int num){maxCountCheckUrl.store(num);}
 signals:
     void progressChanged(int processed, int total); //кол-во обработанных страниц из общего списка
     void pageProcessed(const std::string& url, bool success); //информация о конкретной странице

@@ -4,6 +4,13 @@
 #include <QMainWindow>
 #include <memory>
 #include "core/WebScrapper.h"
+#include "filesystem"
+#include <QFileDialog>
+#include <QString>
+#include <QMessageBox>
+#include <QCoreApplication>
+#include <QFile>
+#include <QDir>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -24,6 +31,8 @@ private slots:
     void onError(const std::string& message);
     void onFinished();
     void onStopButtonClicked();
+    void saveAs();
+    void clearLogs();
 
 // signals:
 //     void closeProgram();

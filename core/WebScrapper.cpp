@@ -41,7 +41,7 @@ WebScrapper::~WebScrapper(){
 
 
 void WebScrapper::start(const std::vector<std::string>& startUrls){
-    if(isRunning){ //Если процесс уже запущен, очищаю очереди и сбрасываю счетчики
+    if(isRunning || !threads.empty()){ //Если процесс уже запущен, очищаю очереди и сбрасываю счетчики
         stop();
     }
 

@@ -1,7 +1,7 @@
 #include "HtmlParser.h"
 #include <regex>
 
-PageData HtmlParser::   parse(const std::string& html, const std::string& baseUrl){
+PageData HtmlParser::parse(const std::string& html, const std::string& baseUrl){
     PageData pageData;
     pageData.url= baseUrl;
     std::regex ws(R"(\s+)");

@@ -1,6 +1,10 @@
 /home/abyraeg/web_scrapper/build/Desktop_Qt_6_11_1-Debug/web_scrapper_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/abyraeg/web_scrapper/mainwindow.h \
   /home/abyraeg/web_scrapper/build/Desktop_Qt_6_11_1-Debug/web_scrapper_autogen/moc_predefs.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/QCoreApplication \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/QDir \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/QFile \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/QObject \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/QString \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/q17memory.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/q20bit.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/q20functional.h \
@@ -10,6 +14,7 @@
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/q20utility.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/q23type_traits.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/q23utility.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qabstracteventdispatcher.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qalgorithms.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qalloc.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qanystringview.h \
@@ -20,11 +25,13 @@
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qatomic.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qbasicatomic.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qbasictimer.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qbindingstorage.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qbytearray.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qbytearrayalgorithms.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qbytearraylist.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qbytearrayview.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qcalendar.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qchar.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qcheckedint_impl.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qcompare.h \
@@ -37,11 +44,22 @@
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qcontainerinfo.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qcontainertools_impl.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qcontiguouscache.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qcoreapplication.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qcoreapplication_platform.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qcoreevent.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qdarwinhelpers.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qdatastream.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qdatetime.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qdeadlinetimer.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qdebug.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qdir.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qdirlisting.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qendian.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qeventloop.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qexceptionhandling.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qfile.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qfiledevice.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qfileinfo.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qflags.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qfloat16.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qforeach.h \
@@ -52,12 +70,14 @@
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qglobalstatic.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qhash.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qhashfunctions.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qiodevice.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qiodevicebase.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qiterable.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qiterator.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qlatin1stringview.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qline.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qlist.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qlocale.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qlogging.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qmalloc.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qmap.h \
@@ -67,6 +87,7 @@
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qmetatype.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qminmax.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qnamespace.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qnativeinterface.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qnumeric.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qobject.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qobject_impl.h \
@@ -113,6 +134,7 @@
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qtenvironmentvariables.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qtextstream.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qtformat_impl.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qtimezone.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qtmetamacros.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qtnoop.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qtpreprocessorsupport.h \
@@ -123,6 +145,7 @@
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qtversionchecks.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qtypeinfo.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qtypes.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qurl.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qutf8stringview.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qvariant.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtCore/qvarlengtharray.h \
@@ -154,8 +177,14 @@
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtGui/qtguiglobal.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtGui/qtransform.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtGui/qwindowdefs.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtWidgets/QFileDialog \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtWidgets/QMainWindow \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtWidgets/QMessageBox \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtWidgets/qdialog.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtWidgets/qdialogbuttonbox.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtWidgets/qfiledialog.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtWidgets/qmainwindow.h \
+  /home/abyraeg/Qt/6.11.1/gcc_64/include/QtWidgets/qmessagebox.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtWidgets/qsizepolicy.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtWidgets/qtabwidget.h \
   /home/abyraeg/Qt/6.11.1/gcc_64/include/QtWidgets/qtwidgets-config.h \
@@ -201,6 +230,10 @@
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fs_dir.h \
+  /usr/include/c++/13/bits/fs_fwd.h \
+  /usr/include/c++/13/bits/fs_ops.h \
+  /usr/include/c++/13/bits/fs_path.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
@@ -299,6 +332,7 @@
   /usr/include/c++/13/climits \
   /usr/include/c++/13/clocale \
   /usr/include/c++/13/cmath \
+  /usr/include/c++/13/codecvt \
   /usr/include/c++/13/compare \
   /usr/include/c++/13/concepts \
   /usr/include/c++/13/cstddef \
@@ -320,6 +354,7 @@
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/filesystem \
   /usr/include/c++/13/format \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/initializer_list \
