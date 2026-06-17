@@ -7,7 +7,6 @@
  <p align="center">
   <img src="https://img.shields.io/badge/C++-17-blue?style=flat-square&logo=c%2B%2B" alt="C++17">
   <img src="https://img.shields.io/badge/Qt-6.0-brightgreen?style=flat-square&logo=qt" alt="Qt6">
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT">
 </p>
 </div>
 
